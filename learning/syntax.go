@@ -95,7 +95,3 @@ func pointer(){
 	fmt.Println("Value stored in  *p = ", *p)
 	fmt.Println("Value stored in  &p = ", &p)
 }
-
-
-func main() {
-}

@@ -22,9 +22,9 @@ func (t *Todos) AddWithPointer (description string){
 	*t = append(*t, item{Description: description})
 }
 
-func main(){
-	i := item{Description: "wash dish", Completed: false}
-	var todos Todos
-	todos = append(todos, i)
-	fmt.Printf("Task %v is %v\n", todos[0].Description, todos[0].Completed)
-}
+// func main(){
+// 	i := item{Description: "wash dish", Completed: false}
+// 	var todos Todos
+// 	todos = append(todos, i)
+// 	fmt.Printf("Task %v is %v\n", todos[0].Description, todos[0].Completed)
+// }

@@ -50,35 +50,35 @@ func evenNumber(nums []int) []int {
 	return evenNum
 }
 
-func main(){
-	arr := []int{1,2,3,-1,-4,4}
-	//var number_of_element int
-	//fmt.Print("Enter the number of elements: ")
-    //fmt.Scan(&number_of_element)
-	//fmt.Println("You entered: ", number_of_element)
+// func main(){
+// 	arr := []int{1,2,3,-1,-4,4}
+// 	//var number_of_element int
+// 	//fmt.Print("Enter the number of elements: ")
+//     //fmt.Scan(&number_of_element)
+// 	//fmt.Println("You entered: ", number_of_element)
 
-	//// var sum int
-    //sum:=0
-	//for i:=0; i<number_of_element; i++ {
-	//	fmt.Printf("enter the %vth element: ", i)
-	//	var temp int
-	//	fmt.Scan(&temp)
-	//	arr = append(arr, temp)
-	//	sum += temp
-	//}
-	//fmt.Println("Sum of array is: ",sum)
-	sum := 0
-	sum = sumSlice(arr);
-	fmt.Println("sum of slice is:", sum)
-	var min = minValue(arr)
-	fmt.Println("min of slice is:", min)
+// 	//// var sum int
+//     //sum:=0
+// 	//for i:=0; i<number_of_element; i++ {
+// 	//	fmt.Printf("enter the %vth element: ", i)
+// 	//	var temp int
+// 	//	fmt.Scan(&temp)
+// 	//	arr = append(arr, temp)
+// 	//	sum += temp
+// 	//}
+// 	//fmt.Println("Sum of array is: ",sum)
+// 	sum := 0
+// 	sum = sumSlice(arr);
+// 	fmt.Println("sum of slice is:", sum)
+// 	var min = minValue(arr)
+// 	fmt.Println("min of slice is:", min)
 
-	min2 := minValueFixed(arr)
-	fmt.Println("min of slice fixed is:", min2)
+// 	min2 := minValueFixed(arr)
+// 	fmt.Println("min of slice fixed is:", min2)
 
-	evenNum := evenNumber(arr)
-	fmt.Print("list even number: ")
-	for _, n := range evenNum{
-		fmt.Print(n, " ")
-	}
-}
+// 	evenNum := evenNumber(arr)
+// 	fmt.Print("list even number: ")
+// 	for _, n := range evenNum{
+// 		fmt.Print(n, " ")
+// 	}
+// }
