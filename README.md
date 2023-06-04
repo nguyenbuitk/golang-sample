@@ -1,4 +1,4 @@
-# golang-sample
+# Golang Sample
 This repository contains a sample project implemented in the Go programming language. It serves as a demonstration or template for building applications using Go.
 
 ## Description
